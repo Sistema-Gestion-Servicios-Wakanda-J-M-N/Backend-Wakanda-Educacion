@@ -12,7 +12,7 @@ import java.time.OffsetDateTime;
 import java.util.Optional;
 
 @Configuration
-@EntityScan("org.example.backendwakandaapicentral.domain")
+@EntityScan("org.example.backendwakandaeducacion.domain")
 @EnableJpaRepositories("org.example.backendwakandaeducacion.repos")
 @EnableTransactionManagement
 @EnableJpaAuditing(dateTimeProviderRef = "auditingDateTimeProvider")
